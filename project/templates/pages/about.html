@@ -1,0 +1,55 @@
+{% extends "base.html" %} 
+
+
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+	<title>About us Page</title>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+
+<body>
+
+	<section class="background-firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				
+
+                <img class="hiro_img" src="{% static 'image/about us.png' %}">
+                <p class="text-big">
+                    We Are Seeking To Build Huge Medical Ai Models For Better Life  
+
+                </p>
+                
+				<p class="text-small">
+					Our revolutionary, automated no-code technology enables organizations to build, deploy and scale their AI vision applications dramatically faster, and more efficient
+
+				</p>
+				<br>
+			
+			</div>
+            
+		</div>
+
+    </section>
+    <section class="uppersec">
+        <footer>
+            <p class="text-footer">
+                <br><br><br><br><br>
+                Copyright ©-All rights are reserved to Anemia predict
+            </p>
+    
+        </footer>
+    </section> 
+</body>
+
+</html>
+
+
+{% endblock content %}
+

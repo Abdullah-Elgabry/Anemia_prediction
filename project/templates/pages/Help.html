@@ -1,0 +1,57 @@
+{% extends "base.html" %} 
+{% load static %}
+
+{%   block content  %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+	<title>Help page</title>
+    <link rel="stylesheet" href="{% static 'css/help.css' %}">
+</head>
+
+<body>
+
+	<section class="background-firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				
+
+                <img class="hiro_img" src="{% static 'image/help2.jpg' %}" >
+                <p class="text-big">
+                  
+
+                </p>
+                
+				<p class="text-small">
+					
+
+				</p>
+				<br>
+			
+			</div>
+            
+		</div>
+
+    </section>
+    <section class="uppersec">
+        <footer>
+            <p class="text-footer">
+                <br><br><br><br><br>
+                Copyright ©-All rights are reserved
+            </p>
+    
+        </footer>
+
+
+    </section> 
+</body>
+
+</html>
+
+
+
+{% endblock content %}

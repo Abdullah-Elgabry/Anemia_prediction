@@ -1,0 +1,76 @@
+
+
+
+    .hiro_img{
+        width:1440px;
+        height:739px;
+    }
+
+    
+    
+    .text-big {
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 31px;
+        text-align: center;
+        color:#333f57;
+        position: absolute; 
+        top: 300px;
+        right: 0px;
+        Left: 330px;
+        margin-bottom: 0px;
+    }
+    
+
+    
+    .text-small {
+        
+        font-size: 18px;
+        text-align: center;
+        color:rgb(166, 166, 166);
+        position: absolute; 
+        top: 399px;
+        Left: 650px;
+	color:#565c6c;
+    }
+    .GetStarted{
+ 	background-color: white;
+       	color: black;
+ 	border: 2px solid #333f57;
+	border-radius: 10px;
+        position: absolute; 
+        top: 480px;
+        right: 550px;
+        Left: 750px;
+        margin-bottom: 0px;
+    }
+    
+   .ContactUs {
+        transition-duration: 0.4s;
+	background-color: #333f57;
+	color:white;
+	border-radius: 12px;
+        position: absolute; 
+        top: 480px;
+        right: 340px;
+        Left: 900px;
+        margin-bottom: 0px;	
+	border: solid #333f57 2px;;
+    }
+
+
+    .text-footer {
+        text-align: center;
+        padding: 10px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        color: azure;
+        justify-content: center;
+    }
+    .uppersec{
+	
+	width:1440px;
+        height:180px;
+	background-color:#333f57;
+
+}

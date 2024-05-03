@@ -1,0 +1,58 @@
+{% extends "base.html" %} 
+
+{%   block content  %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+	<title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+
+	<section class="background firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<img class="hiro_img" src="{% static 'image/AdobeStock_196876587.png' %}">
+                <p class="text-big"> We Believe Everyone Should Have Easy Access<br> To Great Health Care </p>
+
+				<p class="text-small">
+					<!-- as a leading industry innovator we are opening up new opportunities <br> for Developers for ai professionals   -->
+
+				</p>
+				<br>
+			
+			</div>
+            
+		</div>
+
+        <div>
+       <a href="{% url 'predict:predict' %}"> <button class="GetStarted" type="button">Get Started</button></a>
+       <a href="{% url 'contact' %}"> <button class="ContactUs" type="button">Contact Us</button></a>
+        </div>
+
+    </section>
+    <section class="uppersec">
+        <footer class="background">
+            <p class="text-footer">
+                <br><br><br><br><br>
+                Copyright ©-All rights are reserved to Anemia predict
+            </p>
+    
+        </footer>
+
+
+    </section>    
+
+</body>
+
+</html>
+
+
+
+{% endblock content %}
+
+
